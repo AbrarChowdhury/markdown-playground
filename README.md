@@ -5,4 +5,4 @@ A project created as an assignment given by free code camp. Tried doing a bit ex
 Open [Live Demo](https://markdown-playground.netlify.app/) to view it in action.
 
 
-![preview sreenshot](https://drive.google.com/file/d/1Y_KNoavZVEEYhdg9jYY32BCPXuHo0IN-/view?usp=sharing)
+![preview sreenshot](Screenshot.png)
