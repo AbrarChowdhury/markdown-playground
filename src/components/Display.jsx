@@ -1,5 +1,5 @@
 import React from 'react'
-import {Paper} from '@mui/material'
+import { Paper } from '@mui/material'
 import ReactHtmlParser from 'react-html-parser'
 
 function Display({html}) {
