@@ -1,4 +1,27 @@
 .App {
-  text-align: center;
+  background-color: #9C27B0;
+  height: 100vh;
+  padding-top: 20px;
+}
+.title{
+  margin: 0;
+  padding: 10px;
+}
+.header{
+  background: #4A148C!important;
+  color: white!important;
+  padding-left: 20px;
+  margin-top: 0;
+  margin-bottom:20px;
 }
 
+textarea{
+  width:90%; 
+  display:block; 
+  margin:0 auto;
+}
+
+.container{
+  height: 90vh;
+  overflow-y: auto;
+}
