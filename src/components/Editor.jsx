@@ -2,17 +2,17 @@ import React, { useEffect } from 'react'
 import { marked } from 'marked';
 import { Paper, TextField } from '@mui/material'
 
-function Editor({sethtml}) {
+function Editor({setHtml}) {
 
 useEffect(() => {
-    sethtml(marked.parse(
+    setHtml(marked.parse(
         "# Markdown Playground\n ### Feel free to make changes on the editor.\ncreated by: **Abrar Shams Chowdhury**"
     ))   
 }, [])
     
 const handleChange = (e) => {
     e.preventDefault() 
-    sethtml(marked.parse(e.target.value))
+    setHtml(marked.parse(e.target.value))
 }
 
     return (
