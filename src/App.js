@@ -13,7 +13,7 @@ function App() {
     <div className="App">
     <Container>
       <Grid container spacing={2}>
-        <Grid item xs={6}><Editor sethtml={setHtml}/></Grid>
+        <Grid item xs={6}><Editor setHtml={setHtml}/></Grid>
         <Grid item xs={6}><Display html={html}/></Grid>
       </Grid>
     </Container>
